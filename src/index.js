@@ -1,4 +1,4 @@
-function toReadable (number) {
+module.exports = function toReadable (number) {
     let askFrom10to20, askHandreds, askTens ,ask, askSimple;
     number = number.toString().split('');
     number[number.length-1];
